@@ -597,20 +597,12 @@ video {
   align-items: center;
 }
 
-.overflow-hidden{
-  overflow: hidden;
-}
-
 .rounded-2xl{
   border-radius: 1rem;
 }
 
 .rounded-full{
   border-radius: 9999px;
-}
-
-.rounded-3xl{
-  border-radius: 1.5rem;
 }
 
 .border-0{
