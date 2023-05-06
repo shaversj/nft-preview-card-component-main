@@ -609,11 +609,6 @@ video {
   border-width: 0px;
 }
 
-.bg-cyan{
-  --tw-bg-opacity: 1;
-  background-color: hsl(178 100% 50% / var(--tw-bg-opacity));
-}
-
 .bg-very-dark-blue-card-bg{
   --tw-bg-opacity: 1;
   background-color: hsl(216 50% 16% / var(--tw-bg-opacity));
@@ -721,8 +716,9 @@ video {
   outline-color: hsl(0, 0%, 100%);
 }
 
-.hover\:bg-opacity-50:hover{
-  --tw-bg-opacity: 0.5;
+.hover\:bg-cyan:hover{
+  --tw-bg-opacity: 1;
+  background-color: hsl(178 100% 50% / var(--tw-bg-opacity));
 }
 
 .hover\:text-cyan:hover{
@@ -732,12 +728,4 @@ video {
 
 .hover\:opacity-75:hover{
   opacity: 0.75;
-}
-
-.hover\:opacity-10:hover{
-  opacity: 0.1;
-}
-
-.hover\:opacity-50:hover{
-  opacity: 0.5;
 }
