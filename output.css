@@ -597,12 +597,20 @@ video {
   align-items: center;
 }
 
+.overflow-hidden{
+  overflow: hidden;
+}
+
 .rounded-2xl{
   border-radius: 1rem;
 }
 
 .rounded-full{
   border-radius: 9999px;
+}
+
+.rounded-3xl{
+  border-radius: 1.5rem;
 }
 
 .border-0{
@@ -719,6 +727,11 @@ video {
 
 .outline-white{
   outline-color: hsl(0, 0%, 100%);
+}
+
+.hover\:bg-cyan:hover{
+  --tw-bg-opacity: 1;
+  background-color: hsl(178 100% 50% / var(--tw-bg-opacity));
 }
 
 .hover\:text-cyan:hover{
